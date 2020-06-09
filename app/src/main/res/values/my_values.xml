@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimen -->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="top_left">45dp</dimen>
+    <dimen name="top_right">45dp</dimen>
+    <dimen name="bottom_left">0dp</dimen>
+    <dimen name="bottom_right">0dp</dimen>
+    <dimen name="logo_img">100dp</dimen>
+    <dimen name="about_img">50dp</dimen>
+    <dimen name="corner_card">20dp</dimen>
+    <dimen name="about_appbar">256dp</dimen>
+    <dimen name="about_margin">10dp</dimen>
+    <!-- End Dimen -->
+
+    <!-- String -->
+    <string name="app_nama">Gaji Karyawan</string>
+    <string name="gender_unknown">Tidak Diketahui</string>
+    <string name="gender_male">Laki Laki</string>
+    <string name="gender_female">Perempuan</string>
+    <string name="add_pgw">Tambah Karyawan</string>
+    <string name="home_text">Aplikasi Gaji Karyawan</string>
+    <string name="home_menu1">Daftar Karyawan</string>
+    <string name="home_menu2">Tambah Karyawan</string>
+    <string name="home_menu3">About</string>
+    <string name="about_team">Our Team</string>
+    <string name="name1">Gema Wahyu Ramadhan</string>
+    <string name="name2">M. Nurul Anaz</string>
+    <string name="name3">Muhammad Fadli</string>
+    <string name="name4">Aqshal Widianto</string>
+    <string name="name5">Julia Rahmawati</string>
+    <!-- End String -->
+
+    <!-- Array -->
+    <string-array name="array_gender_options">
+        <item>@string/gender_unknown</item>
+        <item>@string/gender_male</item>
+        <item>@string/gender_female</item>
+    </string-array>
+    <string-array name="about_team_drawables">
+        <item>@drawable/ic_user</item>
+        <item>@drawable/ic_user</item>
+        <item>@drawable/ic_user</item>
+        <item>@drawable/ic_user</item>
+        <item>@drawable/ic_user</item>
+    </string-array>
+    <string-array name="about_team_names">
+        <item>@string/name1</item>
+        <item>@string/name2</item>
+        <item>@string/name3</item>
+        <item>@string/name4</item>
+        <item>@string/name5</item>
+    </string-array>
+    <string-array name="about_team_links" tranlatable="false">
+        <item>https://github.com/gemss19/</item>
+        <item>https://www.instagram.com/instagram</item>
+        <item>https://www.instagram.com/instagram</item>
+        <item>https://www.instagram.com/instagram</item>
+        <item>https://www.instagram.com/instagram</item>
+    </string-array>
+    <!-- End Array -->
+
+    <!-- Color -->
+    <color name="colorEditorPrimary">#6200EE</color>
+    <color name="colorEditorPrimaryDark">#3700B3</color>
+    <color name="colorEditorAccent">#e24000</color>
+    <!-- End Color -->
+
+    <!-- Style -->
+    <style name="EditorTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorEditorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorEditorPrimaryDark</item>
+        <item name="colorAccent">@color/colorEditorAccent</item>
+    </style>
+    <style name="NoAppBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorEditorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorEditorPrimaryDark</item>
+        <item name="colorAccent">@color/colorEditorAccent</item>
+    </style>
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/black</item>
+        <item name="colorAccent">@color/colorEditorAccent</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+    </style>
+
+    <style name="ToolbarTheme.TitleText" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">21dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/radley</item>
+    </style>
+    <style name="AppTheme.AppbarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="EditorTheme.AppbarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="EditorTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <!-- End Style -->
+</resources>

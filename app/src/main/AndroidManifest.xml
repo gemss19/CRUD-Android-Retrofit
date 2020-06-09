@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kelompok2.crudgaji">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_loco_round"
+        android:label="@string/app_nama"
+        android:roundIcon="@mipmap/ic_loco_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AboutActivity"
+            android:theme="@style/NoAppBarTheme"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:label="@string/home_menu1"
+            android:name=".ActivityGetPegawai"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".ActivityEditor"
+            android:parentActivityName=".ActivityGetPegawai"
+            android:theme="@style/EditorTheme" />
+        <activity android:name=".MainActivity"
+            android:theme="@style/NoAppBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
