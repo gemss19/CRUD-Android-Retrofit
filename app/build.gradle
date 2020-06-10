@@ -3,8 +3,8 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         release {
-            storeFile file('/home/gemss/build/key_appku.jks')
-            storePassword 'n4sisambel'
+            storeFile file('/home/asd/basdd/asd.jks')
+            storePassword 'asda'
             keyAlias = 'gaasdjian'
             keyPassword 'n4sisamasdal'
         }
