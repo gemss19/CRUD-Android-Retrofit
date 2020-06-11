@@ -24,11 +24,11 @@
     <string name="home_menu2">Tambah Karyawan</string>
     <string name="home_menu3">About</string>
     <string name="about_team">Our Team</string>
-    <string name="name1">Gema Wahyu Ramadhan</string>
-    <string name="name2">M. Nurul Anaz</string>
-    <string name="name3">Muhammad Fadli</string>
-    <string name="name4">Aqshal Widianto</string>
-    <string name="name5">Julia Rahmawati</string>
+    <string name="name1">Nama 1</string>
+    <string name="name2">Nama 2</string>
+    <string name="name3">Nama 3</string>
+    <string name="name4">Nama 4</string>
+    <string name="name5">Nama 5</string>
     <!-- End String -->
 
     <!-- Array -->
@@ -52,7 +52,7 @@
         <item>@string/name5</item>
     </string-array>
     <string-array name="about_team_links" tranlatable="false">
-        <item>https://github.com/gemss19/</item>
+        <item>https://www.instagram.com/instagram/</item>
         <item>https://www.instagram.com/instagram</item>
         <item>https://www.instagram.com/instagram</item>
         <item>https://www.instagram.com/instagram</item>
