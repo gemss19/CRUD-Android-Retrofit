@@ -1,7 +1,7 @@
 # CRUD-Android-Retrofit
 Aplikasi CRUD Android dengan Retrofit
 
-Aplikasi ini merupakan Tugas kelompok untuk Mata Kuliah Mobile Programing UBSI JTW
+Aplikasi ini merupakan Tugas kelompok untuk Mata Kuliah Mobile Programing UBSI
 
 Tampilan
 
